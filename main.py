@@ -92,7 +92,7 @@ def play():
 
         elif 'open vs code' in query:
             speak('opening vs code')
-            codepath=r'C:\Users\Devsa\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code'
+            codepath=r'"C:\Users\Devsa\AppData\Local\Programs\Microsoft VS Code\Code.exe"'
             os.startfile(codepath)
 
         elif 'exit' in query:
